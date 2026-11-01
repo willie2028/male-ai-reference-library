@@ -85,7 +85,11 @@ male-ai-reference-library/
 ├── scripts/
 │   ├── validate.mjs        # 静态校验
 │   ├── browser_test.mjs    # 真实浏览器验收（Chrome headless + CDP，零依赖）
-│   └── check_order.py      # 导出图板顺序的离线像素比对
+│   ├── check_order.py      # 导出图板顺序的离线像素比对
+│   └── check_label.py      # AI 生成标识与「无其他改动」核验
+├── .github/
+│   └── workflows/
+│       └── pages.yml       # GitHub Pages 自动部署（push 到 main 即发布）
 ├── docs/
 │   ├── SPEC.md             # 规范（分类、词表、尺寸、编号规则）
 │   ├── GENERATION.md       # 生成方法与提示词骨架
