@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-31",
+  "items": [
+    {
+      "id": "face-001",
+      "category": "face",
+      "title": "成年男性短发正面",
+      "tagsZh": [
+        "短发",
+        "正面",
+        "无胡须",
+        "方脸"
+      ],
+      "tagsEn": [
+        "short hair",
+        "front view",
+        "clean shaven",
+        "square face"
+      ],
+      "image": "images/face/face-001.webp",
+      "prompt": "Photorealistic studio reference portrait of an adult man, age 30, short black hair, clean shaven. Head-and-shoulders framing showing the head, both shoulders and upper chest, with clear margin above the hair. Natural 85mm portrait lens perspective, no wide-angle distortion. Plain solid light grey seamless backdrop, soft even diffused studio lighting, realistic skin texture, sharp focus on facial features, masculine facial structure with a defined jawline and brow. Neutral relaxed expression, wearing a plain dark grey crew-neck t-shirt, no accessories. Avoid: text, watermark, logo, brand mark, extra faces, distorted or asymmetrical features, plastic skin, heavy makeup, jewellery, sunglasses, scarf.",
+      "negativePrompt": "text, watermark, logo, brand mark, extra faces, distorted face, asymmetrical eyes, plastic skin, heavy makeup, jewellery, sunglasses, extreme wide-angle distortion, busy background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:43:44",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1024,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "face-002",
+      "category": "face",
+      "title": "成年男性卷发无胡须",
+      "tagsZh": [
+        "卷发",
+        "正面",
+        "无胡须",
+        "长脸"
+      ],
+      "tagsEn": [
+        "curly hair",
+        "front view",
+        "clean shaven",
+        "long face"
+      ],
+      "image": "images/face/face-002.webp",
+      "prompt": "Photorealistic studio reference portrait of an adult man, age 28, thick curly dark brown hair, clean shaven. Head-and-shoulders framing showing the head, both shoulders and upper chest, with clear margin above the hair. Natural 85mm portrait lens perspective, no wide-angle distortion. Plain solid light grey seamless backdrop, soft even diffused studio lighting, realistic skin texture, sharp focus on facial features, masculine facial structure with a defined jawline and brow. Neutral relaxed expression, wearing a plain navy crew-neck t-shirt, no accessories. Avoid: text, watermark, logo, brand mark, extra faces, distorted or asymmetrical features, plastic skin, heavy makeup, jewellery, sunglasses, scarf.",
+      "negativePrompt": "text, watermark, logo, brand mark, extra faces, distorted face, asymmetrical eyes, plastic skin, heavy makeup, jewellery, sunglasses, extreme wide-angle distortion, busy background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:40:39",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1024,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "face-003",
+      "category": "face",
+      "title": "成年男性中长发无胡须",
+      "tagsZh": [
+        "中长发",
+        "正面",
+        "无胡须",
+        "长脸"
+      ],
+      "tagsEn": [
+        "medium-long hair",
+        "front view",
+        "clean shaven",
+        "long face"
+      ],
+      "image": "images/face/face-003.webp",
+      "prompt": "Photorealistic studio reference portrait of an adult man, age 32, medium-long straight dark hair reaching just past the ears and tucked behind them, clean shaven. Head-and-shoulders framing showing the head, both shoulders and upper chest, with clear margin above the hair. Natural 85mm portrait lens perspective, no wide-angle distortion. Plain solid light grey seamless backdrop, soft even diffused studio lighting, realistic skin texture, sharp focus on facial features, masculine facial structure with a defined jawline and brow. Neutral relaxed expression, wearing a plain charcoal crew-neck t-shirt, no accessories. Avoid: text, watermark, logo, brand mark, extra faces, distorted or asymmetrical features, plastic skin, heavy makeup, jewellery, sunglasses, scarf, hair covering the face.",
+      "negativePrompt": "text, watermark, logo, brand mark, extra faces, distorted face, asymmetrical eyes, plastic skin, heavy makeup, jewellery, sunglasses, hair covering the face, extreme wide-angle distortion, busy background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:40:53",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1024,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "face-004",
+      "category": "face",
+      "title": "成年男性短发短胡须",
+      "tagsZh": [
+        "短发",
+        "短胡须",
+        "正面",
+        "方脸"
+      ],
+      "tagsEn": [
+        "short hair",
+        "stubble beard",
+        "front view",
+        "square face"
+      ],
+      "image": "images/face/face-004.webp",
+      "prompt": "Photorealistic studio reference portrait of an adult man, age 35, short dark hair, even short stubble beard along the jaw and chin. Head-and-shoulders framing showing the head, both shoulders and upper chest, with clear margin above the hair. Natural 85mm portrait lens perspective, no wide-angle distortion. Plain solid light grey seamless backdrop, soft even diffused studio lighting, realistic skin texture, sharp focus on facial features, masculine facial structure with a defined jawline and brow. Neutral relaxed expression, wearing a plain olive crew-neck t-shirt, no accessories. Avoid: text, watermark, logo, brand mark, extra faces, distorted or asymmetrical features, plastic skin, heavy makeup, jewellery, sunglasses, scarf.",
+      "negativePrompt": "text, watermark, logo, brand mark, extra faces, distorted face, asymmetrical eyes, plastic skin, heavy makeup, jewellery, sunglasses, extreme wide-angle distortion, busy background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:41:04",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1024,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "face-005",
+      "category": "face",
+      "title": "中年男性短发络腮胡",
+      "tagsZh": [
+        "中年",
+        "短发",
+        "络腮胡",
+        "正面",
+        "方脸"
+      ],
+      "tagsEn": [
+        "middle-aged",
+        "short hair",
+        "full beard",
+        "front view",
+        "square face"
+      ],
+      "image": "images/face/face-005.webp",
+      "prompt": "Photorealistic studio reference portrait of a middle-aged man, age 50, short greying dark hair, a full short boxed beard covering the jaw and chin. Head-and-shoulders framing showing the head, both shoulders and upper chest, with clear margin above the hair. Natural 85mm portrait lens perspective, no wide-angle distortion. Plain solid light grey seamless backdrop, soft even diffused studio lighting, realistic skin texture with visible age-appropriate detail, sharp focus on facial features, masculine facial structure with a defined jawline and brow. Neutral relaxed expression, wearing a plain light grey crew-neck t-shirt, no accessories. Avoid: text, watermark, logo, brand mark, extra faces, distorted or asymmetrical features, plastic skin, heavy makeup, jewellery, sunglasses, scarf, youthful face.",
+      "negativePrompt": "text, watermark, logo, brand mark, extra faces, distorted face, asymmetrical eyes, plastic skin, heavy makeup, jewellery, sunglasses, youthful face, extreme wide-angle distortion, busy background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:41:19",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1024,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "pose-001",
+      "category": "pose",
+      "title": "无脸人偶正面自然站立",
+      "tagsZh": [
+        "正面站立",
+        "站立",
+        "中等体型",
+        "静态"
+      ],
+      "tagsEn": [
+        "standing front view",
+        "standing",
+        "medium build",
+        "static"
+      ],
+      "image": "images/pose/pose-001.webp",
+      "prompt": "Photorealistic 3D render reference of a faceless grey male mannequin, uniform matte light grey surface over the whole body, anatomically correct adult male proportions, standing upright in a relaxed natural front-facing pose with both arms resting loosely at his sides and feet slightly apart. The entire body from head to shoes is inside the frame with clear margin around the figure. Plain white studio background, soft even lighting, natural joint articulation. Wearing a simple fitted plain crew-neck t-shirt and slim straight trousers so joints and limb positions stay readable. Avoid: facial features, hair, skin tone, text, watermark, logo, extra limbs, cropped feet, extreme wide-angle distortion, complex background.",
+      "negativePrompt": "text, watermark, logo, brand mark, face, facial features, hair, extra limbs, missing limbs, cropped feet, distorted joints, extreme wide-angle distortion, busy background, complex scene",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:43:44",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "pose-002",
+      "category": "pose",
+      "title": "无脸人偶四分之三视角站立",
+      "tagsZh": [
+        "四分之三视角",
+        "站立",
+        "中等体型",
+        "静态"
+      ],
+      "tagsEn": [
+        "three-quarter view",
+        "standing",
+        "medium build",
+        "static"
+      ],
+      "image": "images/pose/pose-002.webp",
+      "prompt": "Photorealistic 3D render reference of a faceless grey male mannequin, uniform matte light grey surface over the whole body, anatomically correct adult male proportions, standing upright turned to a three-quarter view, the body rotated about 45 degrees toward his own left side, head and torso angled slightly to the same side, weight evenly on both legs, arms relaxed. The entire body from head to shoes is inside the frame with clear margin around the figure. Plain white studio background, soft even lighting, natural joint articulation. Wearing a simple fitted plain crew-neck t-shirt and slim straight trousers so joints and limb positions stay readable. Avoid: facial features, hair, skin tone, text, watermark, logo, extra limbs, cropped feet, extreme wide-angle distortion, complex background.",
+      "negativePrompt": "text, watermark, logo, brand mark, face, facial features, hair, extra limbs, missing limbs, cropped feet, distorted joints, extreme wide-angle distortion, busy background, complex scene",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:41:55",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "pose-003",
+      "category": "pose",
+      "title": "无脸人偶侧面行走",
+      "tagsZh": [
+        "侧面视角",
+        "行走",
+        "中等体型",
+        "动态"
+      ],
+      "tagsEn": [
+        "profile view",
+        "walking",
+        "medium build",
+        "dynamic"
+      ],
+      "image": "images/pose/pose-003.webp",
+      "prompt": "Photorealistic 3D render reference of a faceless grey male mannequin, uniform matte light grey surface over the whole body, anatomically correct adult male proportions, walking in profile with the body seen from his own left side, mid-stride with the forward leg extended and the trailing leg pushing off, opposite arm swinging. The entire body from head to shoes is inside the frame with clear margin around the figure. Plain white studio background, soft even lighting, natural joint articulation. Wearing a simple fitted plain crew-neck t-shirt and slim straight trousers so joints and limb positions stay readable. Avoid: facial features, hair, skin tone, text, watermark, logo, extra limbs, cropped feet, extreme wide-angle distortion, complex background.",
+      "negativePrompt": "text, watermark, logo, brand mark, face, facial features, hair, extra limbs, missing limbs, cropped feet, distorted joints, frozen static stance, extreme wide-angle distortion, busy background, complex scene",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:42:06",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "pose-004",
+      "category": "pose",
+      "title": "无脸人偶坐姿",
+      "tagsZh": [
+        "坐姿",
+        "中等体型",
+        "静态"
+      ],
+      "tagsEn": [
+        "seated",
+        "medium build",
+        "static"
+      ],
+      "image": "images/pose/pose-004.webp",
+      "prompt": "Photorealistic 3D render reference of a faceless grey male mannequin, uniform matte light grey surface over the whole body, anatomically correct adult male proportions, sitting upright on a simple plain grey block stool that is visible in frame, hips and knees bent at right angles, torso vertical, both forearms resting on the thighs, feet flat on the floor. The entire body from head to shoes is inside the frame with clear margin around the figure. Plain white studio background, soft even lighting, natural joint articulation. Wearing a simple fitted plain crew-neck t-shirt and slim straight trousers so joints and limb positions stay readable. Avoid: facial features, hair, skin tone, text, watermark, logo, extra limbs, cropped feet, extreme wide-angle distortion, complex background.",
+      "negativePrompt": "text, watermark, logo, brand mark, face, facial features, hair, extra limbs, missing limbs, cropped feet, distorted joints, floating figure, extreme wide-angle distortion, busy background, complex scene",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:42:21",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "pose-005",
+      "category": "pose",
+      "title": "无脸人偶抬起右臂指向一侧",
+      "tagsZh": [
+        "抬手",
+        "指向一侧",
+        "站立",
+        "中等体型",
+        "静态"
+      ],
+      "tagsEn": [
+        "arm raised",
+        "pointing sideways",
+        "standing",
+        "medium build",
+        "static"
+      ],
+      "image": "images/pose/pose-005.webp",
+      "prompt": "Photorealistic 3D render reference of a faceless grey male mannequin, uniform matte light grey surface over the whole body, anatomically correct adult male proportions, standing upright and raising his own right arm out to his own right side at about shoulder height with the hand pointing sideways, the left arm relaxed at his side, the head and torso turned slightly toward the direction of the pointing hand. The entire body from head to shoes is inside the frame with clear margin around the figure. Plain white studio background, soft even lighting, natural joint articulation. Wearing a simple fitted plain crew-neck t-shirt and slim straight trousers so joints and limb positions stay readable. Avoid: facial features, hair, skin tone, text, watermark, logo, extra limbs, cropped feet, extreme wide-angle distortion, complex background.",
+      "negativePrompt": "text, watermark, logo, brand mark, face, facial features, hair, extra limbs, missing limbs, cropped feet, distorted joints, both arms raised, extreme wide-angle distortion, busy background, complex scene",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:42:34",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "outfit-001",
+      "category": "outfit",
+      "title": "白色T恤与深蓝直筒长裤",
+      "tagsZh": [
+        "T恤",
+        "长裤",
+        "休闲",
+        "春秋"
+      ],
+      "tagsEn": [
+        "t-shirt",
+        "long trousers",
+        "casual",
+        "spring-summer"
+      ],
+      "image": "images/outfit/outfit-001.webp",
+      "prompt": "Photorealistic 3D product render of a headless male ghost mannequin displaying a complete men's outfit, no head and no visible body, blank neck opening, hollow collar and empty cuffs and hem. A plain white short-sleeve crew-neck cotton t-shirt tucked into plain navy straight-leg trousers with a standard waistband and belt loops, the whole set shown together. The whole outfit is fully inside the frame with margin around it. Plain white studio backdrop, soft even studio lighting, realistic fabric drape and stitching, correct menswear tailoring with a proper shoulder seam and sleeve hem. Avoid: visible head, face, skin, hands, text, watermark, logo, brand, extreme perspective, cluttered background, flat-lay, mixed garment forms.",
+      "negativePrompt": "text, watermark, logo, brand mark, visible head, face, skin, hands, flat-lay, duplicated garment, missing garment, extreme perspective, cluttered background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:41:33",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "outfit-002",
+      "category": "outfit",
+      "title": "浅蓝衬衫与炭灰西裤",
+      "tagsZh": [
+        "衬衫",
+        "西裤",
+        "正装",
+        "春秋"
+      ],
+      "tagsEn": [
+        "shirt",
+        "dress trousers",
+        "formal",
+        "spring-summer"
+      ],
+      "image": "images/outfit/outfit-002.webp",
+      "prompt": "Photorealistic 3D product render of a headless male ghost mannequin displaying a complete men's outfit, no head and no visible body, blank neck opening, hollow collar and empty cuffs and hem. A light blue long-sleeve oxford dress shirt with a button-down collar tucked into charcoal grey pressed dress trousers with a sharp crease, the whole set shown together. The whole outfit is fully inside the frame with margin around it. Plain white studio backdrop, soft even studio lighting, realistic fabric drape and stitching, correct menswear tailoring with a proper shoulder seam and sleeve hem. Avoid: visible head, face, skin, hands, text, watermark, logo, brand, extreme perspective, cluttered background, flat-lay, mixed garment forms.",
+      "negativePrompt": "text, watermark, logo, brand mark, visible head, face, skin, hands, flat-lay, duplicated garment, missing garment, extreme perspective, cluttered background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:42:49",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "outfit-003",
+      "category": "outfit",
+      "title": "炭灰两粒扣西装套装",
+      "tagsZh": [
+        "西装",
+        "西裤",
+        "正装",
+        "秋冬"
+      ],
+      "tagsEn": [
+        "suit",
+        "dress trousers",
+        "formal",
+        "autumn-winter"
+      ],
+      "image": "images/outfit/outfit-003.webp",
+      "prompt": "Photorealistic 3D product render of a headless male ghost mannequin displaying a complete men's suit, no head and no visible body, blank neck opening, hollow collar and empty cuffs and hem. A charcoal grey two-button wool business suit comprising a notch-lapel single-breasted jacket and matching straight suit trousers, worn over a plain white dress shirt with a dark navy tie. The whole outfit is fully inside the frame with margin around it. Plain white studio backdrop, soft even studio lighting, realistic fabric drape and stitching, correct menswear tailoring with a proper shoulder seam and sleeve hem. Avoid: visible head, face, skin, hands, text, watermark, logo, brand, extreme perspective, cluttered background, flat-lay, mixed garment forms.",
+      "negativePrompt": "text, watermark, logo, brand mark, visible head, face, skin, hands, flat-lay, duplicated garment, missing garment, extreme perspective, cluttered background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:43:11",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "outfit-004",
+      "category": "outfit",
+      "title": "深蓝运动套装",
+      "tagsZh": [
+        "运动装",
+        "长裤",
+        "运动",
+        "春秋"
+      ],
+      "tagsEn": [
+        "tracksuit",
+        "long trousers",
+        "sporty",
+        "spring-summer"
+      ],
+      "image": "images/outfit/outfit-004.webp",
+      "prompt": "Photorealistic 3D product render of a headless male ghost mannequin displaying a complete men's tracksuit, no head and no visible body, blank neck opening, hollow collar and empty cuffs and hem. A navy blue zip-up track jacket with a stand collar and matching navy blue tapered track pants with an elastic waistband and cuffed ankles, the whole set shown together. The whole outfit is fully inside the frame with margin around it. Plain white studio backdrop, soft even studio lighting, realistic fabric drape and stitching, correct menswear tailoring with a proper shoulder seam and sleeve hem. Avoid: visible head, face, skin, hands, text, watermark, logo, brand, extreme perspective, cluttered background, flat-lay, mixed garment forms.",
+      "negativePrompt": "text, watermark, logo, brand mark, visible head, face, skin, hands, flat-lay, duplicated garment, missing garment, extreme perspective, cluttered background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:43:28",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "outfit-005",
+      "category": "outfit",
+      "title": "卡其工装夹克与灰色休闲长裤",
+      "tagsZh": [
+        "外套",
+        "长裤",
+        "休闲",
+        "秋冬"
+      ],
+      "tagsEn": [
+        "field jacket",
+        "long trousers",
+        "casual",
+        "autumn-winter"
+      ],
+      "image": "images/outfit/outfit-005.webp",
+      "prompt": "Photorealistic 3D product render of a headless male ghost mannequin displaying a complete men's outfit, no head and no visible body, blank neck opening, hollow collar and empty cuffs and hem. An olive khaki cotton field jacket with four patch pockets and a button front worn over plain heather grey casual chinos, the whole set shown together. The whole outfit is fully inside the frame with margin around it. Plain white studio backdrop, soft even studio lighting, realistic fabric drape and stitching, correct menswear tailoring with a proper shoulder seam and sleeve hem. Avoid: visible head, face, skin, hands, text, watermark, logo, brand, extreme perspective, cluttered background, flat-lay, mixed garment forms.",
+      "negativePrompt": "text, watermark, logo, brand mark, visible head, face, skin, hands, flat-lay, duplicated garment, missing garment, extreme perspective, cluttered background",
+      "source": {
+        "type": "generated",
+        "provider": "WorkBuddy ImageGen",
+        "model": "",
+        "generatedAt": "2026-10-31T16:43:43",
+        "referenceImages": [],
+        "termsUrl": "https://www.workbuddy.cn/document/term",
+        "note": "Generated with the WorkBuddy image generation tool. The underlying model name is not exposed by the tool interface, so source.model is left empty rather than asserted. The platform's bottom-right corner mark was cropped out (it contains a third-party brand wordmark); an equivalent brand-free 'AI生成' label was stamped in its place, because the Service Agreement forbids removing the AI-generation indication. See PROVENANCE.md."
+      },
+      "license": "approved",
+      "licenseBasis": "Tencent WorkBuddy Service Agreement §9.2(d)：\"you retain ownership rights in Input and own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.\" 输出归使用者所有，可再分发；残留的第三方权利风险由使用者承担（§9.2(a) 第三方材料条款、§9.2(e) 自行审核义务、§10.4 赔偿责任）。",
+      "licenseCheckedAt": "2026-11-01",
+      "status": "ready",
+      "width": 896,
+      "height": 1536,
+      "reviewedAt": "2026-10-31"
+    }
+  ]
+}

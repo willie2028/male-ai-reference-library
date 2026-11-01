@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>男性 AI 作图参考库</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f6feb'/%3E%3Ccircle cx='16' cy='11' r='4.2' fill='%23fff'/%3E%3Cpath d='M7 27c0-5 4-8 9-8s9 3 9 8z' fill='%23fff'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <h1>男性 AI 作图参考库</h1>
+    <p>成年男性角色 · 脸 / 姿势 / 服装 · 写实参考素材</p>
+  </div>
+  <div class="topbar-meta" id="topbar-meta"></div>
+</header>
+
+<main>
+
+  <!-- ============ 组合台 ============ -->
+  <section class="panel" id="combo-panel">
+    <div class="panel-head">
+      <h2>组合台</h2>
+      <div class="btn-row">
+        <button type="button" id="btn-random-all" class="btn btn-primary">随机组合</button>
+        <button type="button" id="btn-copy-prompt" class="btn">复制中文提示词</button>
+        <button type="button" id="btn-export" class="btn">导出三联参考图 PNG</button>
+      </div>
+    </div>
+
+    <div class="slots" id="slots"></div>
+
+    <div class="prompt-block">
+      <label for="combo-prompt">组合提示词（中文）</label>
+      <textarea id="combo-prompt" rows="9" readonly placeholder="在下方素材库中各选一张「脸 / 姿势 / 服装」，此处会自动生成组合提示词。"></textarea>
+      <p class="note">提示词只描述你选中的参考素材。不同生图模型对参考图的理解能力不同，<strong>无法保证人物身份完全一致</strong>；若需更强的一致性，建议多次生成并挑选最接近的一张。</p>
+    </div>
+  </section>
+
+  <!-- ============ 素材库 ============ -->
+  <section class="panel" id="library-panel">
+    <div class="panel-head">
+      <h2>素材库</h2>
+      <div class="stats" id="stats"></div>
+    </div>
+
+    <div class="tabs" id="tabs" role="tablist" aria-label="素材分类">
+      <button type="button" class="tab" data-cat="all" role="tab">全部</button>
+      <button type="button" class="tab" data-cat="face" role="tab">脸</button>
+      <button type="button" class="tab" data-cat="pose" role="tab">姿势</button>
+      <button type="button" class="tab" data-cat="outfit" role="tab">服装</button>
+    </div>
+
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="中英文关键词搜索，例如 短发 / stubble / 西装 / suit" aria-label="搜索素材" autocomplete="off" />
+      <button type="button" id="btn-clear-filters" class="btn btn-ghost">清除筛选</button>
+    </div>
+
+    <div class="tag-filters" id="tag-filters"></div>
+
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty-state" hidden></div>
+  </section>
+
+</main>
+
+<!-- ============ 详情 ============ -->
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox-inner">
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="关闭详情">✕</button>
+    <div class="lightbox-body">
+      <div class="lightbox-media"><img id="lightbox-img" alt="" /></div>
+      <div class="lightbox-info">
+        <h3 id="lightbox-title"></h3>
+        <p class="mono dim" id="lightbox-id"></p>
+        <div id="lightbox-tags" class="tags"></div>
+        <div class="btn-row">
+          <button type="button" class="btn btn-primary" id="lightbox-use">用作参考</button>
+          <button type="button" class="btn" id="lightbox-download">下载单张</button>
+        </div>
+        <details><summary>生成提示词</summary><pre id="lightbox-prompt"></pre></details>
+        <details><summary>负面提示词</summary><pre id="lightbox-negative"></pre></details>
+        <p class="note" id="lightbox-license"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
