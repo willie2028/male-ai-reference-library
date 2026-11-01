@@ -15,6 +15,11 @@
 
 * { box-sizing: border-box; }
 
+/* hidden 属性必须真正隐藏元素。
+   .lightbox 等规则带有 display:flex，会覆盖 UA 样式表的 [hidden]{display:none}，
+   导致弹层在初始状态就可见 —— 这里统一兜底。 */
+[hidden] { display: none !important; }
+
 html, body {
   margin: 0;
   padding: 0;

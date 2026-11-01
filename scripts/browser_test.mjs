@@ -215,6 +215,10 @@ try {
   await cdp.send('Page.enable');
   await cdp.send('Runtime.enable');
   await cdp.send('Log.enable');
+  // 必须关闭缓存：python http.server 不发 Cache-Control，Chrome 会启发式缓存，
+  // 导致测试实际跑的是旧版 app.js，结果不可信。
+  await cdp.send('Network.enable');
+  await cdp.send('Network.setCacheDisabled', { cacheDisabled: true });
 
   const consoleErrors = [];
   cdp.listeners.push((m) => {
@@ -255,6 +259,33 @@ try {
 
   const data = JSON.parse(readFileSync(new URL('../data/references.json', import.meta.url), 'utf8'));
   const items = data.items;
+
+  /* ---- 0. 初始渲染状态 ---- */
+  // 回归防护：.lightbox 带 display:flex 会覆盖 UA 的 [hidden]{display:none}，
+  // 曾导致弹层在页面加载时就可见；这里用「实际是否可见」而非属性值来断言。
+  const initialUi = await cdp.eval(`(() => {
+    const visible = (id) => {
+      const el = document.getElementById(id);
+      if (!el) return null;
+      return getComputedStyle(el).display !== 'none' && el.getBoundingClientRect().height > 0;
+    };
+    return {
+      lightbox: visible('lightbox'),
+      toast: visible('toast'),
+      empty: visible('empty-state'),
+      header: document.getElementById('topbar-meta').textContent
+    };
+  })()`);
+  check('初始状态下弹层 / 提示条 / 空状态均不可见',
+    initialUi.lightbox === false && initialUi.toast === false && initialUi.empty === false,
+    `lightbox=${initialUi.lightbox} toast=${initialUi.toast} empty=${initialUi.empty}`);
+
+  const licenseStates = [...new Set(items.map((i) => i.license))];
+  const LICENSE_LABEL = { approved: '已确认可再分发', 'pending-review': '待确认' };
+  const expectedLabel = LICENSE_LABEL[licenseStates[0]] || licenseStates[0];
+  check('页头授权文案与数据中的授权状态一致',
+    initialUi.header.includes(expectedLabel),
+    `数据状态 ${licenseStates.join('/')}；页头「${initialUi.header}」`);
 
   /* ---- 1. 分类切换 ---- */
   for (const cat of ['face', 'pose', 'outfit']) {
@@ -377,13 +408,18 @@ try {
   })()`);
   await sleep(250);
   const lbVisible = await cdp.eval('!document.getElementById("lightbox").hidden');
+  const lbRendered = await cdp.eval(`(() => { const el = document.getElementById('lightbox');
+    return getComputedStyle(el).display !== 'none' && el.getBoundingClientRect().height > 0; })()`);
   const lbTitle = await cdp.eval('document.getElementById("lightbox-title").textContent');
   const lbTags = await cdp.eval('document.querySelectorAll("#lightbox-tags .tag").length');
-  check('点击卡片打开详情弹层', openDetailOk && lbVisible && lbTitle.length > 0,
-    `标题「${lbTitle}」，标签 ${lbTags} 个`);
+  check('点击卡片打开详情弹层',
+    openDetailOk && lbVisible && lbRendered && lbTitle.length > 0,
+    `标题「${lbTitle}」，标签 ${lbTags} 个，实际渲染可见=${lbRendered}`);
   await cdp.eval('document.getElementById("lightbox-close").click()');
   await sleep(150);
-  check('详情弹层可关闭', await cdp.eval('document.getElementById("lightbox").hidden'), '已关闭');
+  const lbClosed = await cdp.eval(`(() => { const el = document.getElementById('lightbox');
+    return getComputedStyle(el).display === 'none' || el.getBoundingClientRect().height === 0; })()`);
+  check('详情弹层可关闭（且实际不再渲染）', lbClosed, '已隐藏');
 
   /* ---- 7. 复制组合提示词 ---- */
   await cdp.send('Browser.grantPermissions', {
